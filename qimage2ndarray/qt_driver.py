@@ -61,7 +61,7 @@ def getprop_other(getter):
 
 class QtDriver(object):
     DRIVERS = ('PyQt5', 'PyQt4', 'PySide', 'PySide2', 'PySide6', 'PythonQt')
-    DEFAULT = 'PyQt5'
+    DEFAULT = 'PySide6'
 
     @classmethod
     def detect_qt(cls):
